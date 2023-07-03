@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
+
+body {
+  background-color: #040814;
+}
+
+#title {
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 0;
+}
+.contenedor {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+  flex-direction: column;
+}
+
+#mostrar {
+  border: 1px solid #949382;
+  width: 500px;
+  height: 400px;
+  margin: 20px;
+  background-color: #111b21;
+  border-radius: 30px;
+  overflow-y: scroll;
+  padding: 30px;
+}
+
+#mostrar::-webkit-scrollbar{
+    width: 8px;     /* Tamaño del scroll en vertical */
+    height: 8px;    /* Tamaño del scroll en horizontal */
+    display: none;  /* Ocultar scroll */
+}
+
+#mensaje {
+  border-radius: 20px;
+  width: 350px;
+  height: 30px;
+  outline: none;
+  margin-right: 10px;
+}
+#enviar {
+  border: none;
+  border-radius: 20px;
+  width: 100px;
+  height: 40px;
+}
+
+#enviar:hover {
+  background-color: #45c455;
+}
+
+.message {
+  width: auto;
+  height: auto;
+  border-radius: 30px;
+  padding: 15px;
+  color: #fff;
+  background-color: #025c4c;
+  margin-top: 20px;
+  margin-left: 30px;
+}
+
+.time {
+  margin-left: 45px;
+  color: #fff;
+  font-size: 12px;
+  margin-top: 12px;
+  margin-right: 25px;
+  float: right;
+
+}
